@@ -1,6 +1,6 @@
 <launch>
 
-    <arg default="isk0" name="id"></arg>
+    <arg default="isk_0" name="id"></arg>
     <arg default="/uwb_switch_listener/$(arg id)" name="command_topic_single"></arg>
     <arg default="/uwb_switch_listener" name="command_topic"></arg>
     <arg default="/home/ubuntu/src/rpi_usb_power_switch/usb_switch.sh" name="script_path"></arg>
